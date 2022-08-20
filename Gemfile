@@ -60,3 +60,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # for forms and sign in / logout / mailers
 gem 'devise'
+
+#json 
+gem "jsonapi-serializer"

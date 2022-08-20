@@ -30,7 +30,7 @@ const items = [
   getItem('Files', '9', <FileOutlined />),
 ];
 
-const App = () => {
+const Dashboard = () => {
   const [collapsed, setCollapsed] = useState(false);
   return (
     <Layout
@@ -84,4 +84,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default Dashboard;
