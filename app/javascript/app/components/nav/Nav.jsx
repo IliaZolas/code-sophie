@@ -1,6 +1,10 @@
-import { Menu } from 'antd';
-import { MailOutlined, AppstoreOutlined, SettingOutlined } from '@ant-design/icons';
 import React from 'react';
+import { Link } from 'react-router-dom';
+import Home from '../../pages/Home';
+import About from '../../pages/About';
+import Contact from '../../pages/Contact';
+import Login from '../../pages/Login';
+
 
 const Nav = () => (
   <div>
@@ -10,16 +14,16 @@ const Nav = () => (
       </div>
       <div className="flex navigation">
         <div className="navitem">
-          <a href="#">Home</a>
+        <Link to="/home" element={<Home />}>About</Link>
         </div>
         <div className="navitem">
-          <a href="#">About</a>
+        <Link to="/about" element={<About />}>About</Link>
         </div>
         <div className="navitem">
-          <a href="#">Contact</a>
+        <Link to="/contact" element={<Contact />}>Contact</Link>
         </div>
         <div className="navitem primary-button secondary-green">
-          <a href="#">Log in</a>
+        <Link to="/login" element={<Login />}>Login</Link>
         </div>
       </div>
     </div>
