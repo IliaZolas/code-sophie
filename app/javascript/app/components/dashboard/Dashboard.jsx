@@ -36,6 +36,7 @@ const Dashboard = () => {
     <Layout
       style={{
         minHeight: '100vh',
+        paddingTop: '40px',
       }}
     >
       <Sider collapsible collapsed={collapsed} onCollapse={(value) => setCollapsed(value)}>
@@ -43,12 +44,7 @@ const Dashboard = () => {
         <Menu theme="dark" defaultSelectedKeys={['1']} mode="inline" items={items} />
       </Sider>
       <Layout className="site-layout">
-        <Header
-          className="site-layout-background"
-          style={{
-            padding: 0,
-          }}
-        />
+
         <Content
           style={{
             margin: '0 16px',
@@ -69,7 +65,7 @@ const Dashboard = () => {
               minHeight: 360,
             }}
           >
-            Bill is a cat.
+            Bill is a pizza.
           </div>
         </Content>
         <Footer

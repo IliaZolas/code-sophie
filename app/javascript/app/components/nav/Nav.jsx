@@ -4,6 +4,7 @@ import Home from '../../pages/Home';
 import About from '../../pages/About';
 import Contact from '../../pages/Contact';
 import Login from '../../pages/Login';
+import Dashboard from "../dashboard/Dashboard";
 
 
 const Nav = () => (
@@ -24,6 +25,9 @@ const Nav = () => (
         </div>
         <div className="navitem primary-button secondary-green">
           <Link to="/login" element={<Login />}>Login</Link>
+        </div>
+        <div className="navitem">
+          <Link to="/dashboard" element={<Dashboard />}>Dashboard</Link>
         </div>
       </div>
     </div>
