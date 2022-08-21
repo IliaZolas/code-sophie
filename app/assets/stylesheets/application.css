@@ -15,3 +15,114 @@
  */
 
  @import 'antd/dist/antd.css';
+
+ .navbar {
+    color: white;
+    width: 100vw;
+    position: fixed;
+    z-index: 100;
+}
+
+.navbar ul {
+    list-style-type: none;
+}
+
+.navitem {
+    padding: 10px;
+}
+
+.navitem a {
+    color: white;
+    text-decoration: none;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navlogo {
+    color: white;
+    padding: 10px;
+}
+
+
+/* Colors - background */
+
+.primary-blue {
+    background-color: #05668d;
+}
+
+.secondary-blue {
+    background-color: #427aa1;
+}
+
+
+.primary-green {
+    background-color: #679436;
+}
+
+.secondary-green {
+    background-color: #a5be00;
+}
+
+.white-off {
+    background-color: #ebf2fa;
+}
+
+/* Text properties */
+
+
+
+
+/* Button properties */
+
+.primary-button {
+    padding: 10px 15px;
+}
+
+/* Banners properties */
+
+.banner-container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+
+.banner-container img {
+    position: relative;
+    width: 100vw;
+}
+
+.banner-text-container {
+    position: absolute;
+    top:0;
+    width: 100vw;
+    /* z-index: 1; */
+    background-color: rgba(6, 6, 6, 0.4);
+    height: 100vh;
+}
+
+.banner-text {
+    text-align: center;
+    padding: 300px 0px;
+    z-index: 2;
+}
+
+.banner-text h1 {
+    color: white;
+    text-shadow: 0 0 15px rgba(0,0,0,0.5);
+    font-size: 48px;
+}
+
+.banner-text h3 {
+    color: white;
+    text-shadow: 0 0 15px rgba(0,0,0,0.5);
+    font-size: 24px;
+}
