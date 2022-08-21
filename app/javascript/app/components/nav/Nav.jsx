@@ -14,16 +14,16 @@ const Nav = () => (
       </div>
       <div className="flex navigation">
         <div className="navitem">
-        <Link to="/home" element={<Home />}>About</Link>
+          <Link to="/" element={<Home />}>Home</Link>
         </div>
         <div className="navitem">
-        <Link to="/about" element={<About />}>About</Link>
+          <Link to="/about" element={<About />}>About</Link>
         </div>
         <div className="navitem">
-        <Link to="/contact" element={<Contact />}>Contact</Link>
+          <Link to="/contact" element={<Contact />}>Contact</Link>
         </div>
         <div className="navitem primary-button secondary-green">
-        <Link to="/login" element={<Login />}>Login</Link>
+          <Link to="/login" element={<Login />}>Login</Link>
         </div>
       </div>
     </div>

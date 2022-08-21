@@ -126,3 +126,12 @@
     text-shadow: 0 0 15px rgba(0,0,0,0.5);
     font-size: 24px;
 }
+
+.banner-container-secondary {
+    position: relative;
+    padding: 100px;
+    text-align: center;
+    width: 100vw;
+    height: 500px;
+    overflow: hidden;
+}

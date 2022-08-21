@@ -3,8 +3,8 @@ import React from "react";
 const About = () => {
 
 return (
-    <div>
-About page
+    <div className="banner-container-secondary">
+        About page
     </div>
 );
 };
