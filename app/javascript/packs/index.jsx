@@ -7,11 +7,9 @@ import Dashboard from "../app/components/dashboard/Dashboard";
 
 document.addEventListener('DOMContentLoaded', () => {
   ReactDOM.render(
-    <BrowserRouter>
-      <Routes>
-        <Route path="dashboard" element={<Dashboard />} />
-      </Routes>
-    </BrowserRouter>,
+
+      <Dashboard />
+    ,
     document.body.appendChild(document.createElement('div')),
   )
 })
