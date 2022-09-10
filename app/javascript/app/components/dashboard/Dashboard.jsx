@@ -19,15 +19,15 @@ function getItem(label, key, icon, children) {
 }
 
 const items = [
-  getItem('Option 1', '1', <PieChartOutlined />),
-  getItem('Option 2', '2', <DesktopOutlined />),
-  getItem('User', 'sub1', <UserOutlined />, [
-    getItem('Tom', '3'),
-    getItem('Bill', '4'),
-    getItem('Alex', '5'),
+  getItem('Dashboard', '1', <PieChartOutlined />),
+  getItem('Resource Consumption', '2', <DesktopOutlined />),
+  getItem('Carbon Footprint', 'sub1', <UserOutlined />, [
+    getItem('Electricity', '3'),
+    getItem('Gas', '4'),
+    getItem('Facilities', '5'),
   ]),
-  getItem('Team', 'sub2', <TeamOutlined />, [getItem('Team 1', '6'), getItem('Team 2', '8')]),
-  getItem('Files', '9', <FileOutlined />),
+  getItem('Industry Benchmark', 'sub2', <TeamOutlined />, [getItem('Team 1', '6'), getItem('Team 2', '8')]),
+  getItem('Projections', '9', <FileOutlined />),
 ];
 
 const Dashboard = () => {
